@@ -1,20 +1,24 @@
-📝 To-Do List Web App
+📝 To-Do List Web App:
+
 A simple, interactive, and persistent to-do list built with HTML, CSS, and vanilla JavaScript. Tasks are saved using localStorage, ensuring that your list is available even after refreshing or reopening the browser.
 
-🔍 Features
-    ✅ Add new tasks
-    🔄 Mark tasks as completed (with a visual strike-through)
-    🗑️ Delete tasks
-    💾 Save tasks to browser storage (localStorage)
-    ♻️ Persist tasks even after page reloads
+🔍 Features:
 
-🛠️ Technologies Used
-    HTML5 – Structure of the app
-    CSS3 – Styling (add your custom styles for appearance)
-    JavaScript (ES6) – Functionality and logic
-    Font Awesome – Icons (trash/delete icon)
+    1. Add new tasks
+    2. Mark tasks as completed (with a visual strike-through)
+    3. Delete tasks
+    4. Save tasks to browser storage (localStorage)
+    5. Persist tasks even after page reloads
 
-📦 How It Works
+🛠️ Technologies Used:
+
+    1. HTML5 – Structure of the app
+    2. CSS3 – Styling (add your custom styles for appearance)
+    3. JavaScript (ES6) – Functionality and logic
+    4. Font Awesome – Icons (trash/delete icon)
+
+📦 How It Works:
+
     1. Load Existing Tasks
     On page load, tasks are fetched from localStorage.
     If there are no tasks, an empty list is initialized.
@@ -36,7 +40,8 @@ A simple, interactive, and persistent to-do list built with HTML, CSS, and vanil
     📄 Code Overview
     🔧 getTodoListFromLocalStorage()
     
-    Fetches and parses the task list from localStorage.
+Fetches and parses the task list from localStorage.
+
     ➕ onAddTodo()
     Handles new task creation and validation.
     
@@ -46,9 +51,10 @@ A simple, interactive, and persistent to-do list built with HTML, CSS, and vanil
     ❌ onDeleteTodo()
     Removes a task from the DOM and updates the todoList.
 
-🖼️ UI Preview
+    🧱 createAndAppendTodo(todo)
+    Dynamically creates and appends DOM elements for each task.
+
+🖼️ UI Preview:
 simpletodoapps.ccbp.tech
 
-🧱 createAndAppendTodo(todo)
 
-Dynamically creates and appends DOM elements for each task.
